@@ -1,5 +1,5 @@
-import quests from '../data/quests-data.js';
 import { findById } from '../common/utils.js';
+import quests from '../data/quests-data.js';
 
 export function renderQuests(user) {
     let renderedQuests = [];

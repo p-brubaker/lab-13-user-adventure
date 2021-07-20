@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/style.css" rel="stylesheet">
-    <link href ="quest.js" rel="stylesheet">
+    <link href ="quest.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -17,11 +17,20 @@
         <h2 id="title"></h2>
         <p>
             <img id="image">
-            <audio id="audio" autoplay></audio>
         </p>
         <p id="description"></p>
         <form id="choice-form">
-            <p id="choices"></p>
+            <ul id="choices">
+                <li>
+                    <span id="choice-description-1"></span><input type="radio" id="choice-input-1">
+                </li>
+                <li>
+                    <span id="choice-description-2"></span><input type="radio" id="choice-input-2">
+                </li>
+                <li>
+                    <span span id="choice-description-3"></span><input type="radio" id="choice-input-3">
+                </li>      
+            </ul>
             <button type="submit">Choose</button>
         </form>
         <section id="result" class="hidden">

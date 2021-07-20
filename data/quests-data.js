@@ -5,7 +5,7 @@ const quest1 = {
         x: 25,
         y: 25
     },
-    image: '../assets/quest-1-image.png',
+    image: '../assets/squirrel.jpeg',
     description: 'quest 1 description',
     choices: [
         {
@@ -39,7 +39,7 @@ const quest2 = {
         x: 75,
         y: 35
     },
-    image: '../assets/quest-2-image.png',
+    image: '../assets/mailman.jpeg',
     description: 'quest 2 description',
     choices: [
         {
@@ -73,7 +73,7 @@ const quest3 = {
         x: 75,
         y: 75
     },
-    image: '../assets/quest-3-image.png',
+    image: '../assets/cat.jpeg',
     description: 'quest 3 description',
     choices: [
         {

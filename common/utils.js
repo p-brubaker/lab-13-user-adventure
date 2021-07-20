@@ -1,4 +1,6 @@
-export function hasCompletedQuests(user, quests) {
+import quests from '../data/quests-data.js';
+
+export function hasCompletedQuests(user) {
     for (let quest of quests) {
         if (!user.completed[quest.id]) {
             return false;
