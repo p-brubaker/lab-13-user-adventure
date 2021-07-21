@@ -4,6 +4,8 @@ export function renderChoices(quest) {
         let li = document.createElement('li');
         let desc = document.createElement('span');
         let input = document.createElement('input');
+        input.name = 'user-choice';
+        input.value = choice.id;
 
         desc.textContent = choice.description;
         input.type = 'radio';
@@ -12,7 +14,3 @@ export function renderChoices(quest) {
     }
     return choices;
 }
-
-// export function renderResult(choice) {
-
-// }

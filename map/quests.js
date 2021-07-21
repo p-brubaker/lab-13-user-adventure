@@ -4,7 +4,7 @@ import quests from '../data/quests-data.js';
 export function renderQuests(user) {
     let renderedQuests = [];
     for (let quest of quests) {
-        if (user.completed[quest.id]) {
+        if (user.completed.indexOf(quest.id) !== -1) {
             renderedQuests.push(createCompletedQuest(quest.id));
         } else {
             renderedQuests.push(createQuestLink(quest.id));
