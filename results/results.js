@@ -1,17 +1,18 @@
-// Import needed functions
-import { getUser } from '../data/api.js';
-import { getHealthMessage, getTreasureMessage, getResultImage} from './messages.js';
+// // Import needed functions
+// import { getUser } from '../data/api.js';
+// import { getMessages, getResultImage } from './messages.js';
 
-// Grab DOM elements
-const storyDisplay = document.getElementById('story-display');
-const resultImage = document.getElementById('result-image');
+// // Grab DOM elements
+// const storyDisplay = document.getElementById('story-display');
+// const resultImage = document.getElementById('result-image');
 
-const user = getUser();
+// const user = getUser();
 
-function renderResult(user) {
-    const healthMessage = getHealthMessage(user.hp);
-    const treasureMessage = getTreasureMessage(user.hp, user.treasure);
-    const img = getResultImage(user.hp, user.treasure);
-}
+// function renderResult(user) {
+//     const messages = getMessages(user);
+//     const messageDiv = document.createElement('p');
+//     storyDisplay.append(messageDiv);
+    
+// }
 
-renderResult(user);
+// renderResult(user);

@@ -36,7 +36,7 @@ choicesForm.addEventListener('submit', (e) => {
         {
             name: userObject.name,
             breed: userObject.breed,
-            completed: [...userObject.completed, Number(choiceId)],
+            completed: [...userObject.completed, Number(quest.id)],
             hp: userObject.hp + userChoice.hp,
             treasure: userObject.treasure + userChoice.treasure
         }
