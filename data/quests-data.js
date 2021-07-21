@@ -12,22 +12,22 @@ const quest1 = {
             id: 1,
             description: 'quest 1 choice 1 description',
             result: 'quest 1 choice 1 result',
-            hp: 0,
-            treasure: 0
+            hp: -100,
+            treasure: 100
         },
         {
             id: 2,
             description: 'quest 1 choice 2 description',
             result: 'quest 1 choice 2 result',
-            hp: 0,
-            treasure: 0
+            hp: 50,
+            treasure: 50
         },
         {
             id: 3,
             description: 'quest 1 choice 3 description',
             result: 'quest 1 choice 3 result',
-            hp: 0,
-            treasure: 0
+            hp: -50,
+            treasure: -100
         }
     ]
 };
@@ -46,22 +46,22 @@ const quest2 = {
             id: 1,
             description: 'quest 2 choice 1 description',
             result: 'quest 2 choice 1 result',
-            hp: 0,
-            treasure: 0
+            hp: -35,
+            treasure: 35
         },
         {
             id: 2,
             description: 'quest 2 choice 2 description',
             result: 'quest 2 choice 2 result',
-            hp: 0,
-            treasure: 0
+            hp: -50,
+            treasure: 100
         },
         {
             id: 3,
             description: 'quest 1 choice 3 description',
             result: 'quest 1 choice 3 result',
-            hp: 0,
-            treasure: 0
+            hp: -10,
+            treasure: 10
         }
     ]
 };
@@ -80,22 +80,22 @@ const quest3 = {
             id: 1,
             description: 'quest 3 choice 1 description',
             result: 'quest 3 choice 1 result',
-            hp: 0,
-            treasure: 0
+            hp: 50,
+            treasure: -100
         },
         {
             id: 2,
             description: 'quest 3 choice 2 description',
             result: 'quest 3 choice 2 result',
-            hp: 0,
-            treasure: 0
+            hp: -40,
+            treasure: 100
         },
         {
             id: 3,
             description: 'quest 3 choice 3 description',
             result: 'quest 3 choice 3 result',
             hp: 0,
-            treasure: 0
+            treasure: -50
         }
     ]
 };
