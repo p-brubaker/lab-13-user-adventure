@@ -9,10 +9,6 @@ export function hasCompletedQuests(user) {
     return true;
 }
 
-export function isDead(user) {
-    (user.hp <= 0) ? true : false;
-}
-
 export function findById(array, id) {
     for (let item of array) {
         if (item.id === id) {

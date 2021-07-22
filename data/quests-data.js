@@ -24,8 +24,8 @@ const quest1 = {
         },
         {
             id: 3,
-            description: 'quest 1 choice 3 description',
-            result: 'quest 1 choice 3 result',
+            description: 'Attack the squirrel!',
+            result: 'Halfway across the road, an inconsiderate cyclist comes zooming out of nowhere and collides with you. You are wounded and the cyclist steals your ball.',
             hp: -50,
             treasure: -100
         }
@@ -34,26 +34,26 @@ const quest1 = {
 
 const quest2 = {
     id: 2,
-    title: 'Cat!',
+    title: 'Delivery Person!',
     mapPosition: {
         x: '75vw',
         y: '35vh'
     },
     image: '../assets/mailman.jpeg',
-    description: 'quest 2 description',
+    description: 'You smell something strange and unpleasant in the front yard, so you squeeze under the fence to investigate. An ugly, sweaty stranger in odd clothing is approaching your house holding a suspicious parcel. Do you... ',
     choices: [
         {
             id: 1,
-            description: 'quest 2 choice 1 description',
-            result: 'quest 2 choice 1 result',
-            hp: -35,
-            treasure: 35
+            description: 'Bite them!',
+            result: 'You sink your teeth into the strangers leg and shake it back and forth while growling ferociously. They drop the parcel, which contains $150, but not before deploying bearspray on you.',
+            hp: -50,
+            treasure: 150
         },
         {
             id: 2,
-            description: 'quest 2 choice 2 description',
-            result: 'quest 2 choice 2 result',
-            hp: -50,
+            description: 'Bark at them!',
+            result: 'The delivery person happens to be a black belt in an esoteric martial created specifically for hand to hand combat with dogs. There is a blur of motion, and you are grievously wounded. However, while lying vanquished on the ground, you see a ball.',
+            hp: -150,
             treasure: 100
         },
         {
@@ -68,7 +68,7 @@ const quest2 = {
 
 const quest3 = {
     id: 3,
-    title: 'Delivery person!',
+    title: 'Cat!',
     mapPosition: {
         x: '60vw',
         y: '75vh'
@@ -78,16 +78,16 @@ const quest3 = {
     choices: [
         {
             id: 1,
-            description: 'quest 3 choice 1 description',
-            result: 'quest 3 choice 1 result',
-            hp: 50,
-            treasure: -100
+            description: 'Attack!',
+            result: 'You easily defeat the cat, because it is small and weak and you are a big strong dog. The cat yowls and slinks away licking itself, and you find a ball on the ground.',
+            hp: 10,
+            treasure: 100
         },
         {
             id: 2,
-            description: 'quest 3 choice 2 description',
-            result: 'quest 3 choice 2 result',
-            hp: -40,
+            description: 'Bark at the cat!',
+            result: 'The cat hisses and arches its back, and underneath it you see a ball you had lost earlier and $50. The cat runs away snarling and meowing frantically as you bound forward to claim your prize. What a good day!',
+            hp: 0,
             treasure: 100
         },
         {
