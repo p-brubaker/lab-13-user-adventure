@@ -1,24 +1,24 @@
 const quest1 = {
     id: 1,
-    title: 'quest 1 title',
+    title: 'Squirrel!',
     mapPosition: {
-        x: 25,
-        y: 25
+        x: '25vw',
+        y: '35vh'
     },
     image: '../assets/squirrel.jpeg',
-    description: 'quest 1 description',
+    description: 'A plump squirrel skitters out from behind the tree on the other side of the road... Do you...',
     choices: [
         {
             id: 1,
-            description: 'quest 1 choice 1 description',
-            result: 'quest 1 choice 1 result',
+            description: 'Ignore it and mind your own business',
+            result: 'The squirrel, sensing weakness, gets together with its squirrel friends and they ambush you, leaving you grievously wounded. During the attack, one of the squirrels drops $50 so its not a total loss',
             hp: -100,
-            treasure: 100
+            treasure: 50
         },
         {
             id: 2,
-            description: 'quest 1 choice 2 description',
-            result: 'quest 1 choice 2 result',
+            description: 'Bark at the squirrel!',
+            result: 'The squirrel is intimidated and runs away, then comes back with a basket full of food and $50 to appease you.',
             hp: 50,
             treasure: 50
         },
@@ -34,10 +34,10 @@ const quest1 = {
 
 const quest2 = {
     id: 2,
-    title: 'quest 2 title',
+    title: 'Cat!',
     mapPosition: {
-        x: 75,
-        y: 35
+        x: '75vw',
+        y: '35vh'
     },
     image: '../assets/mailman.jpeg',
     description: 'quest 2 description',
@@ -68,10 +68,10 @@ const quest2 = {
 
 const quest3 = {
     id: 3,
-    title: 'quest 3 title',
+    title: 'Delivery person!',
     mapPosition: {
-        x: 75,
-        y: 75
+        x: '60vw',
+        y: '75vh'
     },
     image: '../assets/cat.jpeg',
     description: 'quest 3 description',

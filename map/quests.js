@@ -15,17 +15,25 @@ export function renderQuests(user) {
 
 function createQuestLink(id) {
     const questLink = document.createElement('a');
+    questLink.classList.add('questlink');
+    const quest = findById(quests, id);
+    questLink.style.top = quest.mapPosition.y;
+    questLink.style.left = quest.mapPosition.x;
     questLink.href = '../quest/?id=' + id;
-    const description = document.createElement('span');
-    description.textContent = findById(quests, id).description;
-    questLink.append(description);
+    const title = document.createElement('span');
+    title.textContent = findById(quests, id).title;
+    questLink.append(title);
     return questLink;
 }
 
 function createCompletedQuest(id) {
-    const quest = document.createElement('div');
-    const description = document.createElement('span');
-    description.textContent = findById(quests, id).description;
-    quest.append(description);
-    return quest;
+    const quest = findById(quests, id);
+    const questDiv = document.createElement('div');
+    questDiv.classList.add('completed-quest');
+    questDiv.style.top = quest.mapPosition.y;
+    questDiv.style.left = quest.mapPosition.x;
+    const title = document.createElement('span');
+    title.textContent = findById(quests, id).title;
+    questDiv.append(title);
+    return questDiv;
 }

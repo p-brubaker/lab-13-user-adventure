@@ -26,10 +26,11 @@ for (let choice of renderedChoices) {
 choicesForm.addEventListener('submit', (e) => {
     choicesForm.style.display = 'none';
     e.preventDefault();
+    description.style.display = 'none';
     const choicesFormData = new FormData(choicesForm);
     const choiceId = (choicesFormData.get('user-choice'));
     const userChoice = findById(quest.choices, Number(choiceId));
-    resultDescription.textContent = userChoice.description;
+    resultDescription.textContent = userChoice.result;
     result.classList.remove('hidden');
     const userObject = getUser();
     setUser(
