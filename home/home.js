@@ -19,6 +19,6 @@ userSignUpForm.addEventListener('submit', (e) => {
     setUser(user);
 
     // redirect to map page
-    window.location = '../map/index.html';
+    window.location.replace('map');
 
 });
